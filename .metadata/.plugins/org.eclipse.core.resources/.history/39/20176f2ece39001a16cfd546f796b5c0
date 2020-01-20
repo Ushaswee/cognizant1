@@ -1,0 +1,17 @@
+package com;
+
+import java.io.FileInputStream;
+
+public class FileCountEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int c=0;
+try{
+	FileCountEx f=new FileCountEx();
+	FileInputStream fin=new FileInputStream("test.txt");
+	
+}
+	}
+
+}

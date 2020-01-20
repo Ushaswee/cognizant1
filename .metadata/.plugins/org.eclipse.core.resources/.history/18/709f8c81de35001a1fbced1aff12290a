@@ -1,0 +1,25 @@
+package com;
+
+import java.io.FileOutputStream;
+
+public class FileIOExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+try
+{
+	FileOutputStream fout=new FileOutputStream("");
+	fout.write();
+	fout.close();
+	fin.read();
+	fin.close();
+}
+	catch(Exception e)
+	{
+		System.out.println(e);
+		System.out.println();
+	}
+}
+	}
+
+}

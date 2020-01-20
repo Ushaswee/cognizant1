@@ -1,0 +1,30 @@
+package comm;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestingExample {
+	public static int findMax(int arr[]){  
+        int max=0;  
+        for(int i=1;i<arr.length;i++){  
+            if(max<arr[i])  
+                max=arr[i];  
+        }  
+        return max; 
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stud   
+		    class TestLogic {  
+		    	  
+		        @Test  
+		        public void testFindMax(){  
+		            assertEquals(4,TestingExample.findMax(new int[]{1,3,4,2}));  
+		            assertEquals(-1,TestingExample.findMax(new int[]{-12,-1,-3,-4,-2}));  
+		        }  
+		    }  
+
+	}
+
+}

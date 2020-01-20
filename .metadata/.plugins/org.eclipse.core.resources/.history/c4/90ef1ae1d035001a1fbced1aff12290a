@@ -1,0 +1,23 @@
+package com;
+import java.util.*;
+class Employee
+{
+	int id;
+	String name;
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
+	
+}
+public class LambdaExample {
+
+	public static void main(String[] args) {
+				// TODO Auto-generated method stub
+		List <Employee> list=new ArrayList<Employee>();
+		 list.add(new Employee(123,"abc"));
+	}
+
+}

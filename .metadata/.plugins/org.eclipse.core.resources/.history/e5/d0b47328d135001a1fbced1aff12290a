@@ -1,0 +1,30 @@
+package com;
+import java.util.*;
+class Employee
+{
+	int id;
+	String name;
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
+	
+}
+public class LambdaExample {
+
+	public static void main(String[] args) {
+				// TODO Auto-generated method stub
+		List <Employee> list=new ArrayList<Employee>();
+		 list.add(new Employee(123,"abc"));
+		 list.add(new Employee(456,"def"));
+		 list.add(new Employee(789,"lkht"));
+		 list.add(new Employee(643,"uyjf"));
+		   list.stream()
+		   .filter(p ->p.id>456)    
+           .map(pm ->pm.id)           
+           .forEach(System.out::println);  
+	}
+
+}
